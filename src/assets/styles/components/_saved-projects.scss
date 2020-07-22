@@ -1,0 +1,121 @@
+.project-preview {
+  height: auto;
+  border-top: 4px $wida-blue solid;
+  border-left: 4px $wida-blue solid;
+  border-right: 1px $project-border solid;
+  margin-bottom: 10px;
+  background-color: $white;
+}
+.project-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.project-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.project-container {
+  height: auto;
+  width: 74.6666%;
+}
+
+.project-title {
+  flex: 0 0 5%;
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  border-right: $wida-blue 2px solid;
+  background-color: $wida-blue;
+  text-align: center;
+  max-width: 5%;
+
+  h5 {
+    color: $white;
+    line-height: normal;
+    margin: 0 10px 0 10px;
+    font-weight: 500;
+  }
+}
+.project-body {
+  height: 100%;
+}
+
+.project-details {
+  height: 100%;
+  border-bottom: 1px solid $project-border;
+}
+
+.project-profile {
+  flex: 0 0 70%;
+  padding: 15px;
+  max-height: 2000px;
+
+  p {
+    line-height: normal;
+  }
+  h4 {
+    color: #005da4;
+    font-weight: 500;
+  }
+}
+.project-image {
+  flex: 0 0 210px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  float: right;
+
+  img {
+    margin: 0;
+    padding: 0;
+    max-height: 170px;
+    float: right;
+  }
+}
+.project-developer {
+  height: 100%;
+  border-bottom: 1px $project-border solid;
+}
+.developer-logo {
+  flex: 0 0 auto;
+  margin: 5px;
+
+  img {
+    margin: 0;
+    padding: 0;
+    max-height: 120px;
+    max-width: 120px;
+    float: none;
+  }
+}
+.project-brief {
+  padding-left: 15px;
+  h5 {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  span a {
+    padding: 15px;
+    height: 45px;
+    float: right;
+    max-width: 50%;
+    text-align: right;
+    color: $white;
+    background-color: $wida-blue;
+  }
+}
+.project-brief span:first-of-type {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.align-right {
+  bottom: 0;
+  right: 0;
+  background-color: #e5e5e5;
+  border-top: 1px solid $project-border;
+  border-left: 1px solid $project-border;
+}
